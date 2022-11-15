@@ -2907,13 +2907,16 @@ countries_dict=[
 #             top_ten.add(sets)
 
 # print(top_ten)
+countries_and_population={}
+for each_country in countries_dict:
+    for detail in each_country.items():
+        if detail[0]=='population':
+            countries_and_population.update(detail[0],detail[1])
+        if detail[0]=='name':
+            countries_and_population.update(detail)
 
-# lst=()
-# for each_country in countries_dict:
-#     for key in each_country['population']:
-#         print(str(key))
-
-     
+for key,value in countries_and_population:
+    print(key)
      
 
     
