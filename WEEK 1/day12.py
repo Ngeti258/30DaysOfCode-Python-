@@ -56,7 +56,7 @@ def list_of_rgb_colors():
     from random import randint
     unlimited_colors=[]
     color_array=[]
-    
+    whi
     while len(color_array)<10:
         while len(color_array)<3:
            color_array.append(randint(000,255))
