@@ -1,1 +1,0 @@
-#learnt about differnet types of errors
