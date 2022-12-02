@@ -1,10 +1,10 @@
 age=22
 height=1.85
 num1=2+2j
-# base=int(input('Enter the Base: '))
-# height=int(input('Enter the height: '))
-# area=0.5*base*height
-# print('the area of the triangle is ',area)
+base=int(input('Enter the Base: '))
+height=int(input('Enter the height: '))
+area=0.5*base*height
+print('the area of the triangle is ',area)
 
 # side_a=int(input('Enter side a: '))
 # side_b=int(input('Enter side b: '))
